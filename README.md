@@ -1,8 +1,7 @@
-# Phone-Drop
+**Phone-Drop**
 A windows web based application that uses local network connection to transfer files between all the devices with all different operating systems, the only thing needed is a windows laptop, doesn't matter the specs.
 
-##How To Use:
-Run
+**How To Use:**
 
 1. To build from source, install Go 1.22 or newer and double-click `Build-Windows.cmd` (or run `powershell -ExecutionPolicy Bypass -File .\Build-Windows.ps1`).
 2. Start `outputs\PhoneDrop.exe`. It opens the browser and runs in the background without a console window. The app exits automatically after the last PhoneDrop page closes. The portable executable does not need a Go installation.
@@ -13,7 +12,7 @@ The app shows the PC address and an eight-digit pairing code on the page. The co
 
 Files are stored in `%USERPROFILE%\Downloads\Phone Drop`. The dark-mode switch saves its setting to `.phonedrop-settings.json` in that folder. **Clear cache** asks before deleting the files available to download and preserves that settings file.
 
-## Notes:
+**Notes:**
 
 - PhoneDrop starts at port 8765 and automatically tries the next 15 ports if it is occupied. Use `PhoneDrop.exe -port 9000` to choose a different starting port.
 - **Stop transfers** pauses active uploads and downloads; the button becomes **Start transfers** to continue them. Closing the last PhoneDrop page exits the app; if a browser crashes without sending its close signal, a five-minute heartbeat timeout cleans it up.
@@ -23,5 +22,9 @@ Files are stored in `%USERPROFILE%\Downloads\Phone Drop`. The dark-mode switch s
 - The Windows executable uses the supplied logo as its file icon. Its console window is disabled.
 - The app and QR encoder use Go's standard library, the included HTML page, and the two supplied cloud-arrow SVGs. The Go MSI is only needed as a build tool and is not installed or bundled for users of the portable executable.
 
-##Important Note:
+**Important Note:**
+
 If you download the excutable windows application, there's no need to do the first part, just run the "PhoneDrop.exe" and then continue with the other setup steps.
+
+
+**Attention: This project was bult mostly with the help of an AI model called Chat-GPT Codex 6Luna version**
