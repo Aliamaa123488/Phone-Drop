@@ -27,4 +27,4 @@ Files are stored in `%USERPROFILE%\Downloads\Phone Drop`. The dark-mode switch s
 If you download the excutable windows application, there's no need to do the first part, just run the "PhoneDrop.exe" and then continue with the other setup steps.
 
 
-**Attention: This project was bult mostly with the help of an AI model called Chat-GPT Codex 6Luna version**
+**Attention: This project was built mostly with the help of an AI model called Chat-GPT Codex 6Luna version**
